@@ -25,6 +25,7 @@ class Tela_1(BoxLayout):
 
 class Tela_2(BoxLayout):
     
+    
     def on_press_bt(bt):
         janela.root_window.remove_widget(janela.root)
         janela.root_window.add_widget(Tela_1())
